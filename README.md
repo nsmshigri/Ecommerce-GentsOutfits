@@ -1,2 +1,14 @@
-# Ecommerce-GentsOutfits
-A fully functional E-Commerce platform for Gents Outfits, where users can browse and purchase shirts, jeans, and jackets. The platform allows users to add items to their cart, place orders, and generate invoices with shipment details. It aims to deliver a seamless shopping experience with a user-friendly interface and robust backend.
+Ecommerce - GentsOutfits
+GentsOutfits is your go-to store for stylish and premium-quality men's fashion, including jeans, shirts, jackets, and more. Our platform ensures a seamless shopping experience, allowing customers to explore and purchase the latest trends in men's clothing with ease. At GentsOutfits, we are committed to offering top-tier fashion, excellent customer service, and a hassle-free online shopping experience.
+
+Features
+User Authentication: Uses ASP.NET Core Identity for secure user registration, login, and account management.
+Intuitive Navigation: Simple and structured navigation to easily browse different clothing categories.
+Search Functionality: Quickly find outfits using relevant keywords.
+Shopping Cart: Easily add or remove items, review the total cost, and proceed to checkout.
+Admin CRUD Operations: A dedicated admin panel for adding, updating, deleting, and managing product details such as descriptions, images, stock levels, and prices.
+Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: ASP.NET Core MVC, C#
+Authentication: ASP.NET Core Identity
+Database: SQL Server
