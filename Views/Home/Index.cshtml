@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "_ownLayout";
+}
+@model List<Product>
+<title>@ViewBag.Title</title>
+<div id="searchResults">
+
+<main>
+    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner   mt-2">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="~/OtherImages/Tshirts.jpg" class=" pics d-block  w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="~/OtherImages/jackets.png" class="pics d-block w-100" alt="...">
+            </div>
+          
+        </div>
+    </div>
+
+
+    <div class="fs-1  fw-bold text-center mt-5">Shirts</div>
+    <div class="text-body-tertiary text-center fs-4">Trending Shirts</div>
+
+
+    <div class="container">
+        <div class="row gy-3 mt-5 ">
+            @{
+                IEnumerable<Product> p1 = Model.Take(4);
+                List<Product> productList1 = p1.ToList();
+            }
+            <partial name="_mypartialview" model="productList1" />
+        </div>
+        <div class="container">
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4 text-center">
+                    <a href="/Shirts/index">
+                        <button type="button" class="btn btn-dark p-3 rounded-pill fs-5">
+                            View More
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fs-1  fw-bold text-center mt-5">Jeans</div>
+    
+    <div class="text-body-tertiary text-center fs-4">Top Selling Jeans in this Week</div>
+    @{
+        var lastFourItems = Model.TakeLast(4);
+        List<Product> productList2 = lastFourItems.ToList();
+
+    }
+
+    <div class="container">
+        <div class="row gy-3 mt-5 ">
+            <partial name="_mypartialview" model="productList2" />
+           
+           
+        </div>
+
+        <div class="container mb-2">
+            <div class="row justify-content-center ">
+                <div class="col-md-4 text-center">
+                        <a href="/Jeans/index">
+                        <button type="button" class="btn btn-dark p-3 rounded-pill fs-5">
+                            View More
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</div>

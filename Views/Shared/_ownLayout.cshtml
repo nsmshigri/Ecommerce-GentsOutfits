@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg pt-0">
+            <div class="container-fluid navv pt-2">
+                <a href="/Home/index">
+                    <img src="~/OtherImages/Logo.png" class="mx-auto" width="180px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Home/index"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Shirts/index"><strong>Shirts</strong></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="/Jeans/index">
+                                <strong>Jeans</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="/Jackets/index">
+                                <strong>Jackets</strong>
+                            </a>
+                        </li>
+                         @{
+                       
+                            int currentCartItemCount = 0;
+                            if (this.ViewContext.HttpContext.Request.Cookies.TryGetValue("cartItemCount", out var cartItemCountStr))
+                            {
+                                currentCartItemCount = Convert.ToInt32(cartItemCountStr);
+                            }
+                            else
+                            {
+                                // Initialize the cartItemCount cookie if it does not exist
+                                currentCartItemCount = 0;
+                            }
+
+                        }
+
+                        <li class="nav-item text-center loginhover ">
+                            <partial name="_LoginPartial" />
+                        </li>
+                       
+
+                        <input class="search text-center offset-1" id="searchitem" type="text" name="searchTerm" placeholder="Search" aria-label="Search">
+                        <button class="btn0 " id="b1">Search</button>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Order/viewCart" style="display: flex; flex-direction: column; align-items: center;">
+                                <i class="fas fa-shopping-cart"></i>
+                                <i id="carticon"><span class="badge badge-pill badge-warning text-danger" style="margin-top: 5px;">@currentCartItemCount</span></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    @* <div id="mainContent"> *@
+
+    @RenderBody()
+    @* </div> *@
+    <div class="container-fluid container1 ">
+        <footer class="text-center text-lg-start text-black" style="background-color:dimgrey">
+            <div class="container p-4 pb-0">
+                <section class="">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase fs-4 mb-4 font-weight-bold">
+                                GentsOutfits
+                            </h6>
+                            <p>
+                                Welcome to GentsOutfits where style meets elegance! Discover quality men's 
+                                fashion essentials curated just for you. Embark on a stylish journey with us. 
+                                Thank you for choosing GentsOutfits.
+                            </p>
+                        </div>
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase fs-4 mb-4 font-weight-bold">Policies</h6>
+                            <p>
+                                Privacy Policy
+                            </p>
+                            <p>
+                                Refund Policy
+                            </p>
+                            <p>
+                                Shipping or Delivery Policy
+                            </p>
+                            <p>
+                                Term Of Services
+                            </p>
+                        </div>
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 fs-4 font-weight-bold">Contact</h6>
+                            <p><i class="fas fa-home mr-3"></i> Johar Town, Lahore, Pakistan</p>
+                            <p>
+                                <a style="text-decoration: none; color: black; " href="GentsOutfits6612@gmail.com "
+                                   class="fas fa-envelope"> GentsOutfitsPk@gmail.com</a>
+                            </p>
+                            <p><i class="fas fa-phone mr-3"></i> + 92 312 0229286</p>
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://x.com/The_Catrix" role="button">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="" role="button">
+                                <i class="fab fa-google"></i>
+                            </a>
+
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="" role="button">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 Copyright:
+            </div>
+        </footer>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $('#b1').click(function () {
+                var searchitem = $('#searchitem').val();
+                $.get('/home/Search', { searchTerm: searchitem }, function (result) {
+                    $('#searchResults').html(result);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

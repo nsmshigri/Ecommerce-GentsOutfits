@@ -1,0 +1,53 @@
+﻿@model List<Product>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center my-5">
+    <img src="~/OtherImages/Logo.png" alt="logo" width="200px">
+</div>
+<h3 class="mt-2 text-center">Available Products</h3>
+
+
+<div class="container">
+    <div class="row gy-3 mt-5 justify-content-center">
+        @foreach (var p in Model)
+        {
+            string[] images = p.Images.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+            string firstImagePath = images.FirstOrDefault();
+
+            <div class="col-4 col-md-2 col-sm-4">
+                    <div class="card border-0">
+                        <!-- Use the first image path -->
+                        <img class="card-img-top" src="@Url.Content(firstImagePath)" alt="Uploaded Image" />
+                        <div class="card-body">
+                            <p class="card-text fs-4 text-body-tertiary">
+                                
+                                <h5>@p.Name</h5>
+
+                                <del class="text-danger">Rs.@p.Price .00</del>
+                                @{
+                                    decimal discount = 0.2m; // 20% discount
+                                    decimal discountPrice = p.Price * (1 - discount); // Calculate the discounted price
+                                    discountPrice = Math.Round(discountPrice, 2); // Round the discounted price to two decimal places
+                                    string formattedDiscountPrice = discountPrice.ToString("0.00"); // Format the discounted price with trailing zeros
+                                }
+                                <span> Rs.@formattedDiscountPrice </span>
+                            </p>
+                                @* <a class="btn btn-info" asp-action="Details" asp-route-id="@p.Id">Details</a> *@
+                                <a class="btn btn-dark" asp-action="Edit" asp-route-id="@p.Id">Edit</a>
+                                <a class="btn btn-warning" asp-action="Remove" asp-route-id="@p.Id">Delete</a>
+                        </div>
+                    </div>
+            </div>
+        }
+    </div>
+</div>
+<a href="/Product/addproduct" class="btn btn-primary text-center w-20 ">
+    ADD Product<a />
+<div class="text-center mt-5 text-muted">
+    Copyright &copy; 2024 &mdash; GentsOutfits
+</div>
+
+
+   

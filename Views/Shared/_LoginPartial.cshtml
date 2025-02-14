@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<MyUsers> SignInManager
+@inject UserManager<MyUsers> UserManager
+
+
+@{
+    string name = "";
+    if (User.Identity != null)
+    {
+        name = User.Identity.Name ?? "";
+        if (name.Contains("@"))
+        {
+            name = name.Substring(0, name.IndexOf("@"));
+        }
+    }
+}
+@if (SignInManager.IsSignedIn(User))
+{
+
+
+
+    <li class="nav-item">
+        <a class="btn btn-primary nav-link" style="background-color: transparent; border-color: transparent; color: inherit;" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hi, @name!</a>
+    </li>
+
+
+    <a class="text-black" asp-area="Identity" asp-page="/Account/Logout"> <i class="bi bi-person-fill fs-5 login-icon"></i></a>
+
+}
+else
+{
+
+    <a class="text-black" asp-area="Identity" asp-page="/Account/Login"> <i class="bi bi-person-fill fs-5 login-icon"></i></a>
+
+}

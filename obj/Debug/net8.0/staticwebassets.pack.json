@@ -1,0 +1,493 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GentsOutfits(Authentication).bundle.scp.css",
+      "PackagePath": "staticwebassets\\GentsOutfits(Authentication).bundle.scp.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\OtherImages\\3bbf1eb0a0eb7cdce4a42da7f54c3db3.jpg",
+      "PackagePath": "staticwebassets\\OtherImages\\3bbf1eb0a0eb7cdce4a42da7f54c3db3.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\OtherImages\\Logo.png",
+      "PackagePath": "staticwebassets\\OtherImages\\Logo.png"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\OtherImages\\Tshirts.jpg",
+      "PackagePath": "staticwebassets\\OtherImages\\Tshirts.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\OtherImages\\empty-cart.png",
+      "PackagePath": "staticwebassets\\OtherImages\\empty-cart.png"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\OtherImages\\jackets.png",
+      "PackagePath": "staticwebassets\\OtherImages\\jackets.png"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\OtherImages\\payCard.png",
+      "PackagePath": "staticwebassets\\OtherImages\\payCard.png"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\1e57172d-d6d5-4441-b6c9-6e619cb86691.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\1e57172d-d6d5-4441-b6c9-6e619cb86691.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\218a71c3-ccb2-44e5-8c22-3e123767114b.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\218a71c3-ccb2-44e5-8c22-3e123767114b.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\21b47ca8-9b07-44a6-ac2a-8be02684dbbf.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\21b47ca8-9b07-44a6-ac2a-8be02684dbbf.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\23152ade-f160-4a68-b06a-a532a0fe32c9.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\23152ade-f160-4a68-b06a-a532a0fe32c9.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\27bc01e9-1f84-4268-b052-c80672231716.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\27bc01e9-1f84-4268-b052-c80672231716.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\2d48f201-d5a2-47ed-860a-e3d6362564ca.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\2d48f201-d5a2-47ed-860a-e3d6362564ca.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\2d640677-64c1-4589-9838-f3bb9df1e8a6.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\2d640677-64c1-4589-9838-f3bb9df1e8a6.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\31d043cf-106f-41d4-97e5-a7b3f0b3f04d.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\31d043cf-106f-41d4-97e5-a7b3f0b3f04d.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\333a0aa3-bc3f-455f-9ae9-21b2a98a0e5f.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\333a0aa3-bc3f-455f-9ae9-21b2a98a0e5f.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\35b67969-fa11-4779-b94c-9f960ab69481.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\35b67969-fa11-4779-b94c-9f960ab69481.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\38fee4c4-80c4-4394-a267-a9e794b98217.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\38fee4c4-80c4-4394-a267-a9e794b98217.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\3a2e1152-af77-45f3-8bf5-e126d7019c2a.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\3a2e1152-af77-45f3-8bf5-e126d7019c2a.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\3c00e4dc-1961-47f3-9b53-b1b8a58aea18.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\3c00e4dc-1961-47f3-9b53-b1b8a58aea18.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\3ea86ca6-2be6-4157-90bb-8170afc1de97.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\3ea86ca6-2be6-4157-90bb-8170afc1de97.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\3ecd5246-a3ba-4c7b-af4c-c60d74b13f22.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\3ecd5246-a3ba-4c7b-af4c-c60d74b13f22.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\45f94793-4109-432f-84da-e69d00e9052a.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\45f94793-4109-432f-84da-e69d00e9052a.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\49f59a50-fd01-4ff6-b0db-edd6600c0f75.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\49f59a50-fd01-4ff6-b0db-edd6600c0f75.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\4c3ffb07-1313-4b88-bc96-652d7766b25f.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\4c3ffb07-1313-4b88-bc96-652d7766b25f.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\5130f67e-2d0e-45e0-a1e4-97a19ddd3a7b.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\5130f67e-2d0e-45e0-a1e4-97a19ddd3a7b.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\56d9a12d-bd91-4108-82ab-4bd048758fe5.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\56d9a12d-bd91-4108-82ab-4bd048758fe5.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\56f97a5b-6641-4242-b9a2-c2b742c11216.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\56f97a5b-6641-4242-b9a2-c2b742c11216.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\69ff68b5-0cd1-4104-8ed7-470230c87171.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\69ff68b5-0cd1-4104-8ed7-470230c87171.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\6a12e641-fc47-49af-ac26-d3067f1f3f42.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\6a12e641-fc47-49af-ac26-d3067f1f3f42.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\6a17bc64-852c-4441-ae1c-60afdcba5771.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\6a17bc64-852c-4441-ae1c-60afdcba5771.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\80b91887-8802-40a6-97a7-a88eafa6231b.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\80b91887-8802-40a6-97a7-a88eafa6231b.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\81da68a9-2e04-4415-9bc9-cf6eb894eba6.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\81da68a9-2e04-4415-9bc9-cf6eb894eba6.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\86dbadc8-e2e5-4321-82a0-9eef48887f76.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\86dbadc8-e2e5-4321-82a0-9eef48887f76.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\8b147df2-292d-4573-8ade-ec98b543b054.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\8b147df2-292d-4573-8ade-ec98b543b054.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\8b34c9ad-4410-4497-b454-21394a663e37.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\8b34c9ad-4410-4497-b454-21394a663e37.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\8e526402-3725-43b2-86fb-5c7b3de1b094.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\8e526402-3725-43b2-86fb-5c7b3de1b094.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\8ef118f3-a7d8-4835-be7a-5188ca75db75.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\8ef118f3-a7d8-4835-be7a-5188ca75db75.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\8f68b7e9-672d-4811-a754-e36d2abb00be.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\8f68b7e9-672d-4811-a754-e36d2abb00be.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\9195e523-5099-4c9f-96fb-e8881ad1adaf.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\9195e523-5099-4c9f-96fb-e8881ad1adaf.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\9868bf08-8115-45cc-af92-47a5bac35bf3.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\9868bf08-8115-45cc-af92-47a5bac35bf3.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\a8ccfac7-4d72-412a-bb3c-f27544d54334.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\a8ccfac7-4d72-412a-bb3c-f27544d54334.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\a92377ac-521c-4158-8779-2427be279764.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\a92377ac-521c-4158-8779-2427be279764.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\aae19805-48d2-4793-ad2e-5d3904fba503.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\aae19805-48d2-4793-ad2e-5d3904fba503.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\b130496d-489a-4535-88bf-84b1be70e0b5.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\b130496d-489a-4535-88bf-84b1be70e0b5.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\b1b7ccaf-58ae-4f02-92b6-c995e6738765.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\b1b7ccaf-58ae-4f02-92b6-c995e6738765.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\b5a7ea68-aba5-4cbe-a538-d4b1562e1978.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\b5a7ea68-aba5-4cbe-a538-d4b1562e1978.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\bef261e9-13cb-4cf9-8179-8e0307b18654.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\bef261e9-13cb-4cf9-8179-8e0307b18654.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\c30dfeb4-b994-45ef-a879-823534bd6b70.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\c30dfeb4-b994-45ef-a879-823534bd6b70.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\c560c3c9-eb68-446c-ad74-1bb475b7a7d0.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\c560c3c9-eb68-446c-ad74-1bb475b7a7d0.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\cf316aa9-e65d-48ee-abfe-e67b35930e17.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\cf316aa9-e65d-48ee-abfe-e67b35930e17.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\df1978be-926c-40c7-a8e6-7d38138dac66.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\df1978be-926c-40c7-a8e6-7d38138dac66.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\df6a6e9e-e8d2-497f-bf8e-bfeeecebc969.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\df6a6e9e-e8d2-497f-bf8e-bfeeecebc969.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\e15b9e56-116e-476f-9956-fe351ee0887f.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\e15b9e56-116e-476f-9956-fe351ee0887f.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\ed49aa2e-fcc6-49aa-b1ab-67a50a441cdb.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\ed49aa2e-fcc6-49aa-b1ab-67a50a441cdb.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\ed6439c6-14d2-4a0f-978b-230c8d4687d9.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\ed6439c6-14d2-4a0f-978b-230c8d4687d9.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\ProductImages\\eeb888e1-69b5-49dd-97fd-f3b6809af26f.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\eeb888e1-69b5-49dd-97fd-f3b6809af26f.jpg"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\css\\cartstyle.css",
+      "PackagePath": "staticwebassets\\css\\cartstyle.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\University Data\\6th Sem\\Software Construction and Development\\Web Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GentsOutfits(Authentication).Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GentsOutfits(Authentication).props",
+      "PackagePath": "build\\GentsOutfits(Authentication).props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GentsOutfits(Authentication).props",
+      "PackagePath": "buildMultiTargeting\\GentsOutfits(Authentication).props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GentsOutfits(Authentication).props",
+      "PackagePath": "buildTransitive\\GentsOutfits(Authentication).props"
+    }
+  ],
+  "ElementsToRemove": []
+}

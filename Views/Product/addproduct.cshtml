@@ -1,0 +1,120 @@
+﻿@model GentsOutfits_Authentication_.Models.Product
+<div id="productForm">
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: gray; /* Light gray background */
+    }
+    .card-container {
+      max-width: 600px;
+      margin: auto;
+      margin-top: 50px;
+      
+    }
+    .card-title {
+      text-align: center; /* Center align the text */
+    }
+  </style>
+</head>
+<body>
+
+        <div class="text-center my-3">
+            <img src="~/OtherImages/Logo.png" alt="logo" width="200px">
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Add Product</h2>
+                    <form asp-action="AddProduct" asp-controller="Product" id="addproduct" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Name">Product Name</label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter product name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label asp-for="Price">Price</label>
+                                <input asp-for="Price" class="form-control" placeholder="Enter price" type="number" step="0.01">
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label asp-for="Quantity">Quantity</label>
+                                <input asp-for="Quantity" class="form-control" value="1" min="1" max="100" type="number">
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label asp-for="Category">Category</label>
+                                <select asp-for="Category" class="form-control">
+                                    <option value="">Choose category...</option>
+                                    <option value="Shirts">Shirts</option>
+                                    <option value="Jeans">Jeans</option>
+                                    <option value="Jackets">Jackets</option>
+                                    <!-- Add more categories as needed -->
+                                </select>
+                                <span asp-validation-for="Category" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PakageDetail">Package Detail</label>
+                            <input asp-for="PakageDetail" class="form-control" placeholder="Enter package detail">
+                            <span asp-validation-for="PakageDetail" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Feature">Composition and Care</label>
+                            <textarea asp-for="Feature" class="form-control" rows="3" placeholder="Enter product Composition and Care"></textarea>
+                            <span asp-validation-for="Feature" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="imageUpload">Select images to upload:</label>
+                            <input type="file" id="imageUpload" name="files" multiple>
+                            <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif</small>
+                        </div>
+
+                        <button type="button" id="productForm" class="btn w-10 text-center btn-primary" onclick="addProduct()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+        function addProduct() {
+            var formData = new FormData($("#addproduct")[0]);
+
+            $.ajax({
+                type: 'POST',
+                url: '/Product/AddProduct',
+                data: formData,
+                contentType: false,
+                processData: false,
+                
+                success: function (result) {
+                    //load form return from '/Product/AddProduct',
+                    $("#productForm").html(result);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error adding product:", error);
+                }
+            });
+        }
+</script>
+</body>
+</html>
+
+</div>
